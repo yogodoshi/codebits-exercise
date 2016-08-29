@@ -11,7 +11,7 @@ class Retention
   end
 
   def keep?(date)
-    (retention_of_days.include? date) || (retention_of_months.include? date) || (retention_of_years.include? date)
+    retention_of_days.include?(date) || retention_of_months.include?(date) || retention_of_years.include?(date)
   end
 
   private
