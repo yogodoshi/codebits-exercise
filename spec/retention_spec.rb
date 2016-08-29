@@ -156,4 +156,8 @@ RSpec.describe Retention do
   end
 
   xcontext 'leap year'
+
+  xcontext 'receiving something other than a Date'
+
+  xcontext 'receiving a date in the future'
 end
